@@ -1,0 +1,35 @@
+[
+  {
+    "Id": "2bb2d0fc-7b7c-40be-a01e-c0ad6e8b9391",
+    "UserId": null,
+    "UserName": "amen@test.com",
+    "UserNameNormalized": "AMEN@TEST.COM",
+    "Email": "amen@test.com",
+    "EmailNormalized": "AMEN@TEST.COM",
+    "PhoneNumber": null,
+    "PhoneNumberConfirmed": false,
+    "PasswordHash": "AQAAAAEAACcQAAAAEBECMbBV8+JMc4ZFjChMBXlRzYuSGZpaOYQcvDcKXaurlQx73IHbzQvJnp8SgePqyw==",
+    "TwoFactorEnabled": false,
+    "City": null,
+    "Claims": [
+      {
+        "Issuer": "LOCAL AUTHORITY",
+        "OriginalIssuer": "LOCAL AUTHORITY",
+        "Properties": {},
+        "Subject": null,
+        "Type": "UserHeroType",
+        "Value": "superman",
+        "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+      },
+      {
+        "Issuer": "LOCAL AUTHORITY",
+        "OriginalIssuer": "LOCAL AUTHORITY",
+        "Properties": {},
+        "Subject": null,
+        "Type": "UserHeroBirthdate",
+        "Value": "04-09-2017",
+        "ValueType": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  }
+]

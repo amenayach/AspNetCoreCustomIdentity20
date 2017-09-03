@@ -1,0 +1,48 @@
+$.ajax({
+	url: 'http://localhost:50839/api/account/register',
+	type: 'POST',
+    data: JSON.stringify({Email: 'amen@test.com', Password: 'P@ssw0rd'}),
+    contentType: "application/json;charset=utf-8",
+	dataType: "json",
+	success: function (data) {
+		console.log(data);
+	},
+	error: function (x, y, z) {
+		console.log(x);
+	}
+});
+
+$.ajax({
+	url: 'http://localhost:50839/api/account/login',
+	type: 'POST',
+    data: JSON.stringify({Email: 'amen@test.com', Password: 'P@ssw0rd'}),
+    contentType: "application/json;charset=utf-8",
+	dataType: "json",
+    xhrFields: {
+       withCredentials: true
+    },
+    crossDomain: true,
+	success: function (data) {
+		console.log(data);
+	},
+	error: function (x, y, z) {
+		console.log(x);
+	}
+});
+
+$.ajax({
+	url: 'http://localhost:50839/api/account/test',
+	type: 'GET',
+    contentType: "application/json;charset=utf-8",
+	dataType: "json",
+    xhrFields: {
+       withCredentials: true
+    },
+    crossDomain: true,
+	success: function (data) {
+		console.log(data);
+	},
+	error: function (x, y, z) {
+		console.log(x);
+	}
+});
